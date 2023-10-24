@@ -39,9 +39,17 @@ header {
     border-radius: 20px;
 }
 
-ul, ol {
-    padding-left: 18px;
+ul, li {
+    padding-left: 1px;
+    padding-bottom: 10px;
     list-style: none;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 18px;
 }
 
 .check {
@@ -53,12 +61,18 @@ ul, ol {
     height: 20px;
     text-align: center;
     line-height: 20px;
+    margin-right: 5px;
 }
 
-nav {
-    height: 50px;
-    width: 100%;
-    padding: 15px;
-    padding-left: 18px;
+.done {
+    border-color: green;
+    color: green;
 }
+
+.not-done {
+    border-color: red;
+    color: red;
+}
+
+
 
