@@ -39,10 +39,26 @@ header {
     border-radius: 20px;
 }
 
+ul, ol {
+    padding-left: 18px;
+    list-style: none;
+}
+
+.check {
+    border-radius: 50%;
+    border: 1px solid grey;
+    color: grey;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
 nav {
     height: 50px;
-    width: 100px;
+    width: 100%;
     padding: 15px;
-    
+    padding-left: 18px;
 }
 
