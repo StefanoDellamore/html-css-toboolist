@@ -5,6 +5,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: lightgrey;
+}
+
+/* Header*/
+
 h1 {
     display: inline-block;
     
@@ -12,5 +18,10 @@ h1 {
 
 header h1, header img {
     vertical-align: middle;
+}
+
+header {
+    background-color: white;
+    padding: 10px 10px;
 }
 
