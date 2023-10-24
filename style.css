@@ -53,6 +53,23 @@ nav {
     padding-left: 18px;
 }
 
+button {
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+#botton-1 {
+    background-color: rgb(13, 115, 155);
+    border: 1px solid rgb(8, 79, 235);
+    color: white;
+}
+
+#botton-2 {
+    background-color:white;
+    border: 1px solid lightgray;
+    color: lightgray;
+}
+
 /* Lista*/
 
 ul, li {
