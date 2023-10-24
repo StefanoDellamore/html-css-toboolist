@@ -39,17 +39,26 @@ header {
     border-radius: 20px;
 }
 
-ul, li {
-    padding-left: 1px;
-    padding-bottom: 10px;
-    list-style: none;
+.container-divisorio {
+    height: 2px;
+    background-color: lightgray;
 }
+
+/* Nav*/
 
 nav {
     height: 50px;
     width: 100%;
     padding: 15px;
     padding-left: 18px;
+}
+
+/* Lista*/
+
+ul, li {
+    padding-left: 1px;
+    padding-bottom: 10px;
+    list-style: none;
 }
 
 .check {
