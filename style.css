@@ -36,7 +36,6 @@ header {
 #list-container {
     background-color: white;
     padding: 10px;
-    border-radius: 20px;
 }
 
 .container-divisorio {
@@ -72,11 +71,14 @@ button {
 
 /* Lista*/
 
+
 ul, li {
     padding-top: 10px;
     padding-left: 1px;
     padding-bottom: 10px;
     list-style: none;
+    position: relative;
+     
 }
 
 .check {
@@ -99,6 +101,37 @@ ul, li {
 .not-done {
     border-color: red;
     color: red;
+}
+
+.button-list {
+    padding: 8px 15px;
+    border-radius: 25px;
+    
+}
+
+li .button-list {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    vertical-align: middle;
+}
+
+/* Colori lista*/
+
+#azzurro {
+    background-color: #0D739B;
+}
+
+#viola {
+    background-color: blueviolet;
+}
+
+#arancione {
+    background-color: orange;
+}
+
+#verde {
+    background-color: green;
 }
 
 
