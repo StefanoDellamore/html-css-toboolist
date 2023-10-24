@@ -23,5 +23,24 @@ header h1, header img {
 header {
     background-color: white;
     padding: 10px 10px;
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#list-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav {
+    height: 50px;
+    width: 100px;
+    padding: 15px;
+    
 }
 
